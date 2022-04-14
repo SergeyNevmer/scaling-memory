@@ -7,7 +7,7 @@ import geolocation from "../../icons/geolocation.png";
 import diaphragm from "../../icons/diaphragm.png";
 
 import { Icon } from "../../components/Icon/Icon";
-import { Card } from "../../components/Card/Card";
+// import { Card } from "../../components/Card/Card";
 
 export const Homepage = () => {
   return (
@@ -75,10 +75,88 @@ export const Homepage = () => {
               </p>
             </div>
             <div className="w-[1168px] h-[1216px] flex flex-wrap justify-center items-center">
-              <Card img="bgCard01" />
-              <Card img="bgCard02" />
-              <Card img="bgCard03" />
-              <Card img="bgCard04" />
+              <div
+                className={`w-[576px] h-[600px] bg-card01 bg-cover mr-2 flex flex-col justify-end`}
+              >
+                <div className="w-[576px] h-[142px]">
+                  <h2 className="text-sm leading-5 tracking-[2px] uppercase text-white ml-[30px] mb-2">
+                    Product Photography
+                  </h2>
+                  <p className="text-sm leading-5 text-[#C0C0C0] w-[501px] h-[50px] ml-[30px] mb-1">
+                    Cras commodo consequat orci, in convallis risus egestas non.
+                    Nulla efficitur auctor hendrerit. Etiam ut orci varius,
+                    faucibus libero ac, cursus quam.
+                  </p>
+                  <div className="w-[130px] h-[42px] bg-white flex items-center justify-around rounded-lg ml-[30px]">
+                    <div className="w-8 h-8 bg-black rounded-full"></div>
+                    <button className="text-[15px] leading-5 tracking-[0.4px]">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={`w-[576px] h-[600px] bg-card02 bg-cover mr-2 flex flex-col justify-end`}
+              >
+                <div className="w-[576px] h-[142px]">
+                  <h2 className="text-sm leading-5 tracking-[2px] uppercase text-white ml-[30px] mb-2">
+                    Product Photography
+                  </h2>
+                  <p className="text-sm leading-5 text-[#C0C0C0] w-[501px] h-[50px] ml-[30px] mb-1">
+                    Cras commodo consequat orci, in convallis risus egestas non.
+                    Nulla efficitur auctor hendrerit. Etiam ut orci varius,
+                    faucibus libero ac, cursus quam.
+                  </p>
+                  <div className="w-[130px] h-[42px] bg-white flex items-center justify-around rounded-lg ml-[30px]">
+                    <div className="w-8 h-8 bg-black rounded-full"></div>
+                    <button className="text-[15px] leading-5 tracking-[0.4px]">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={`w-[576px] h-[600px] bg-card03 bg-cover mr-2 flex flex-col justify-end`}
+              >
+                <div className="w-[576px] h-[142px]">
+                  <h2 className="text-sm leading-5 tracking-[2px] uppercase text-white ml-[30px] mb-2">
+                    Product Photography
+                  </h2>
+                  <p className="text-sm leading-5 text-[#C0C0C0] w-[501px] h-[50px] ml-[30px] mb-1">
+                    Cras commodo consequat orci, in convallis risus egestas non.
+                    Nulla efficitur auctor hendrerit. Etiam ut orci varius,
+                    faucibus libero ac, cursus quam.
+                  </p>
+                  <div className="w-[130px] h-[42px] bg-white flex items-center justify-around rounded-lg ml-[30px]">
+                    <div className="w-8 h-8 bg-black rounded-full"></div>
+                    <button className="text-[15px] leading-5 tracking-[0.4px]">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={`w-[576px] h-[600px] bg-card04 bg-cover mr-2 flex flex-col justify-end`}
+              >
+                <div className="w-[576px] h-[142px]">
+                  <h2 className="text-sm leading-5 tracking-[2px] uppercase text-white ml-[30px] mb-2">
+                    Wildlife Photography
+                  </h2>
+                  <p className="text-sm leading-5 text-[#C0C0C0] w-[501px] ml-[30px] mb-1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus
+                    feugiat eros quis consectetur. Morbi neque ex, condimentum
+                    dapibus congue et, vulputate ut ligula. Vestibulum sit amet
+                    urna turpis.
+                  </p>
+                  <div className="w-[130px] h-[42px] bg-white flex items-center justify-around rounded-lg ml-[30px]">
+                    <div className="w-8 h-8 bg-black rounded-full"></div>
+                    <button className="text-[15px] leading-5 tracking-[0.4px]">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
