@@ -7,7 +7,7 @@ import geolocation from "../../icons/geolocation.png";
 import diaphragm from "../../icons/diaphragm.png";
 
 import { Icon } from "../../components/Icon/Icon";
-// import { Card } from "../../components/Card/Card";
+import { Card } from "../../components/Card/Card";
 
 export const Homepage = () => {
   return (
@@ -75,88 +75,45 @@ export const Homepage = () => {
               </p>
             </div>
             <div className="w-[1168px] h-[1216px] flex flex-wrap justify-center items-center">
-              <div
-                className={`w-[576px] h-[600px] bg-card01 bg-cover mr-2 flex flex-col justify-end`}
-              >
-                <div className="w-[576px] h-[142px]">
-                  <h2 className="text-sm leading-5 tracking-[2px] uppercase text-white ml-[30px] mb-2">
-                    Product Photography
-                  </h2>
-                  <p className="text-sm leading-5 text-[#C0C0C0] w-[501px] h-[50px] ml-[30px] mb-1">
-                    Cras commodo consequat orci, in convallis risus egestas non.
-                    Nulla efficitur auctor hendrerit. Etiam ut orci varius,
-                    faucibus libero ac, cursus quam.
-                  </p>
-                  <div className="w-[130px] h-[42px] bg-white flex items-center justify-around rounded-lg ml-[30px]">
-                    <div className="w-8 h-8 bg-black rounded-full"></div>
-                    <button className="text-[15px] leading-5 tracking-[0.4px]">
-                      Read more
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={`w-[576px] h-[600px] bg-card02 bg-cover mr-2 flex flex-col justify-end`}
-              >
-                <div className="w-[576px] h-[142px]">
-                  <h2 className="text-sm leading-5 tracking-[2px] uppercase text-white ml-[30px] mb-2">
-                    Product Photography
-                  </h2>
-                  <p className="text-sm leading-5 text-[#C0C0C0] w-[501px] h-[50px] ml-[30px] mb-1">
-                    Cras commodo consequat orci, in convallis risus egestas non.
-                    Nulla efficitur auctor hendrerit. Etiam ut orci varius,
-                    faucibus libero ac, cursus quam.
-                  </p>
-                  <div className="w-[130px] h-[42px] bg-white flex items-center justify-around rounded-lg ml-[30px]">
-                    <div className="w-8 h-8 bg-black rounded-full"></div>
-                    <button className="text-[15px] leading-5 tracking-[0.4px]">
-                      Read more
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={`w-[576px] h-[600px] bg-card03 bg-cover mr-2 flex flex-col justify-end`}
-              >
-                <div className="w-[576px] h-[142px]">
-                  <h2 className="text-sm leading-5 tracking-[2px] uppercase text-white ml-[30px] mb-2">
-                    Product Photography
-                  </h2>
-                  <p className="text-sm leading-5 text-[#C0C0C0] w-[501px] h-[50px] ml-[30px] mb-1">
-                    Cras commodo consequat orci, in convallis risus egestas non.
-                    Nulla efficitur auctor hendrerit. Etiam ut orci varius,
-                    faucibus libero ac, cursus quam.
-                  </p>
-                  <div className="w-[130px] h-[42px] bg-white flex items-center justify-around rounded-lg ml-[30px]">
-                    <div className="w-8 h-8 bg-black rounded-full"></div>
-                    <button className="text-[15px] leading-5 tracking-[0.4px]">
-                      Read more
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={`w-[576px] h-[600px] bg-card04 bg-cover mr-2 flex flex-col justify-end`}
-              >
-                <div className="w-[576px] h-[142px]">
-                  <h2 className="text-sm leading-5 tracking-[2px] uppercase text-white ml-[30px] mb-2">
-                    Wildlife Photography
-                  </h2>
-                  <p className="text-sm leading-5 text-[#C0C0C0] w-[501px] ml-[30px] mb-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus
-                    feugiat eros quis consectetur. Morbi neque ex, condimentum
-                    dapibus congue et, vulputate ut ligula. Vestibulum sit amet
-                    urna turpis.
-                  </p>
-                  <div className="w-[130px] h-[42px] bg-white flex items-center justify-around rounded-lg ml-[30px]">
-                    <div className="w-8 h-8 bg-black rounded-full"></div>
-                    <button className="text-[15px] leading-5 tracking-[0.4px]">
-                      Read more
-                    </button>
-                  </div>
-                </div>
-              </div>
+              <Card
+                img="bg-card01"
+                title="Product Photography"
+                text="Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam."
+              />
+              <Card
+                img="bg-card02"
+                title="Architecture Photography"
+                text="Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec."
+              />
+              <Card
+                img="bg-card03"
+                title="Drone Photography"
+                text="Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam."
+              />
+              <Card
+                img="bg-card04"
+                title="Wildlife Photography"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis."
+              />
+            </div>
+          </div>
+        </section>
+        <section className="w-full h-[600px] bg-bgSecondSection bg-cover flex flex-col justify-end">
+          <div className="w-[300px] self-end mb-[200px] mr-14">
+            <h1 className="text-sm leading-5 tracking-[2px] text-white uppercase">
+              Sunset at Mount Fuji
+            </h1>
+            <p className="text-sm leading-5 w-[298px] h-[60px] text-[#C0C0C0]">
+              Duis tristique sed lorem a vestibulum. Cras commodo consequat
+              orci, in convallis risus egestas non.
+            </p>
+          </div>
+          <div className="w-full h-4 mb-10 flex justify-end">
+            <div className="w-[300px] h-4 flex justify-around mr-10">
+              <Icon text="1" img={clock} />
+              <Icon text="f/16" img={diaphragm} />
+              <Icon text="400" img={iso} />
+              <Icon text="Japan" img={geolocation} />
             </div>
           </div>
         </section>
