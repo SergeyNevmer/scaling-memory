@@ -7,7 +7,10 @@ module.exports = {
       },
       backgroundImage: {
         bgFirstSection: "url('./img/firstSection.png')",
-        bgSecondSection: "url('./img/bgSecondSection.png')",
+        bgThirdSection: "url('./img/bgThirdSection.png')",
+        bgFourthSection: "url('./img/bgFourthSection.png')",
+        bgFifthSection: "url('./img/bgFifthSection.png')",
+        bgSeventhSection: "url('./img/bgSeventhSection.png')",
         card01: "url(./img/bgCard01.png)",
         card02: "url(./img/bgCard02.png)",
         card03: "url(./img/bgCard03.png)",

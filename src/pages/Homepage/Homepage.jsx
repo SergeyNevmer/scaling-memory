@@ -6,6 +6,12 @@ import iso from "../../icons/iso.png";
 import geolocation from "../../icons/geolocation.png";
 import diaphragm from "../../icons/diaphragm.png";
 
+import logo01 from "../../img/companyLogo/company01.png";
+import logo02 from "../../img/companyLogo/company02.png";
+import logo03 from "../../img/companyLogo/company03.png";
+import logo04 from "../../img/companyLogo/company04.png";
+import logo05 from "../../img/companyLogo/company05.png";
+
 import { Icon } from "../../components/Icon/Icon";
 import { Card } from "../../components/Card/Card";
 
@@ -98,7 +104,7 @@ export const Homepage = () => {
             </div>
           </div>
         </section>
-        <section className="w-full h-[600px] bg-bgSecondSection bg-cover flex flex-col justify-end">
+        <section className="w-full h-[600px] bg-bgThirdSection bg-cover flex flex-col justify-end">
           <div className="w-[300px] self-end mb-[200px] mr-14">
             <h1 className="text-sm leading-5 tracking-[2px] text-white uppercase">
               Sunset at Mount Fuji
@@ -110,10 +116,101 @@ export const Homepage = () => {
           </div>
           <div className="w-full h-4 mb-10 flex justify-end">
             <div className="w-[300px] h-4 flex justify-around mr-10">
-              <Icon text="1" img={clock} />
+              <Icon text="1''" img={clock} />
               <Icon text="f/16" img={diaphragm} />
               <Icon text="400" img={iso} />
               <Icon text="Japan" img={geolocation} />
+            </div>
+          </div>
+        </section>
+        <section className="w-full h-[540px] flex">
+          <div className="w-[720px] h-full bg-[#000000] flex justify-center items-center">
+            <div className="w-[600px] h-[314px flex flex-col justify-center">
+              <p className="text-sm leading-5 tracking-[2px] text-[#C0C0C0] mb-[6px]">
+                The Gear cage
+              </p>
+              <p className="text-lg leading-8 text-[#FFFFFF] mb-[14px]">
+                The tools that we use.
+              </p>
+              <p className="text-sm leading-5 text-[#FFFFFF] w-[514px] h-20 mb-[20px]">
+                The say that "no place is boring if you've had a good night's
+                sleep and have a pocket full of unexposed film". While we don't
+                shoot (a lot) of film these days — these are the tools that we
+                actually use everyday to capture the amazing things around us.
+              </p>
+              <div className="w-[152px] h-[42px] bg-white flex items-center justify-around rounded-lg mb-3">
+                <div className="w-8 h-8 bg-black rounded-full"></div>
+                <button className="text-[15px] leading-5 tracking-[0.4px]">
+                  Check it out
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="w-[720px] h-full bg-bgFourthSection bg-cover flex flex-col justify-end">
+            <div className="w-full h-4 mb-10 flex justify-end">
+              <div className="w-[300px] h-4 flex justify-around mr-10">
+                <Icon text="0,8''" img={clock} />
+                <Icon text="f/5,6" img={diaphragm} />
+                <Icon text="100" img={iso} />
+                <Icon text="Sweden" img={geolocation} />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="w-full h-[600px] bg-bgFifthSection bg-cover flex flex-col justify-end">
+          <div className="w-[300px] self-end mb-[200px] mr-14">
+            <h1 className="text-sm leading-5 tracking-[2px] text-white uppercase">
+              Monstera Leafs
+            </h1>
+            <p className="text-sm leading-5 w-[298px] h-[60px] text-[#C0C0C0]">
+              Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
+              ultrices, ut faucibus orci tincidunt.
+            </p>
+          </div>
+          <div className="w-full h-4 mb-10 flex justify-end">
+            <div className="w-[300px] h-4 flex justify-around mr-10">
+              <Icon text="1/400s" img={clock} />
+              <Icon text="f/3,5" img={diaphragm} />
+              <Icon text="100" img={iso} />
+              <Icon text="Costa Rica" img={geolocation} />
+            </div>
+          </div>
+        </section>
+        <section className="w-full h-[500px] bg-[#000000] flex justify-center items-center">
+          <div className="w-[1200px] h-[280px] flex flex-col justify-center items-center">
+            <div className="w-[600px] h-[82px] mb-[20px]">
+              <h1 className="text-[40px] leading-[42px] text-center text-white mb-[10px]">
+                Past clients
+              </h1>
+              <p className="text-2xl leading-[30px] text-center text-[#C0C0C0]">
+                Trusted by your favourite companies
+              </p>
+            </div>
+            <div className="w-[1168px] h-[158px] flex justify-center items-center">
+              <img className="mr-[109px]" src={logo01} alt="logo" />
+              <img className="mr-[109px]" src={logo02} alt="logo" />
+              <img className="mr-[109px]" src={logo03} alt="logo" />
+              <img className="mr-[109px]" src={logo04} alt="logo" />
+              <img src={logo05} alt="logo" />
+            </div>
+          </div>
+        </section>
+        <section className="w-full h-[600px] bg-bgSeventhSection bg-cover flex flex-col justify-end">
+          <div className="w-[300px] self-end mb-[200px] mr-14">
+            <h1 className="text-sm leading-5 tracking-[2px] text-white uppercase">
+              Star fall in the Himalayas
+            </h1>
+            <p className="text-sm leading-5 w-[298px] h-[60px] text-[#C0C0C0]">
+              Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
+              condimentum dapibus congue et, vulputate ut ligula.
+            </p>
+          </div>
+          <div className="w-full h-4 mb-10 flex justify-end">
+            <div className="w-[300px] h-4 flex justify-around mr-10">
+              <Icon text="6''" img={clock} />
+              <Icon text="f/11" img={diaphragm} />
+              <Icon text="800" img={iso} />
+              <Icon text="Nepal" img={geolocation} />
             </div>
           </div>
         </section>
