@@ -5,6 +5,9 @@ import clock from "../../icons/clock.png";
 import iso from "../../icons/iso.png";
 import geolocation from "../../icons/geolocation.png";
 import diaphragm from "../../icons/diaphragm.png";
+import instagram from "../../icons/instagram.png";
+import twitter from "../../icons/twitter.png";
+import facebook from "../../icons/facebook.png";
 
 import logo01 from "../../img/companyLogo/company01.png";
 import logo02 from "../../img/companyLogo/company02.png";
@@ -211,6 +214,140 @@ export const Homepage = () => {
               <Icon text="f/11" img={diaphragm} />
               <Icon text="800" img={iso} />
               <Icon text="Nepal" img={geolocation} />
+            </div>
+          </div>
+        </section>
+        <section className="w-full h-[406px] bg-[#000000] flex justify-center items-center">
+          <div className="w-[600px] h-[186px]">
+            <h1 className="text-[40px] leading-[42px] text-center text-white mb-[15px]">
+              Need help with photography <br />
+              or videography?
+            </h1>
+            <p className="text-2xl leading-[30px] text-center text-[#C0C0C0] mb-[12px]">
+              We're here for you!
+            </p>
+            <div className="w-[600px] h-[52px] flex justify-center">
+              <div className="w-[152px] h-[42px] bg-white flex items-center justify-around rounded-lg mb-3">
+                <div className="w-8 h-8 bg-black rounded-full"></div>
+                <button className="text-[15px] leading-5 tracking-[0.4px]">
+                  Get in touch
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="w-full h-[652px] bg-[#000000] flex justify-center items-center">
+          <div className="w-[1168px] h-[452px]">
+            <div className="flex justify-between mb-[36px]">
+              <div className="w-[457px] h-[200px]">
+                <img className="mb-[20px]" src={logo} alt="logo" />
+                <p className="text-[13px] leading-5 text-[#C0C0C0]">
+                  Photographers & videographers capturing the world around us.
+                </p>
+              </div>
+              <div className="flex">
+                <div className="w-[221px] h-[200px] mr-[15px]">
+                  <p className="text-[14px] leading-5 tracking-[2px] text-[#C0C0C0] mb-[10px] uppercase">
+                    Business areas
+                  </p>
+                  <div className="flex flex-col">
+                    <a
+                      className="text-sm leading-5 text-white mb-[10px]"
+                      href="#top"
+                    >
+                      Product Photography
+                    </a>
+                    <a
+                      className="text-sm leading-5 text-white mb-[10px]"
+                      href="#top"
+                    >
+                      Architecture Photography
+                    </a>
+                    <a
+                      className="text-sm leading-5 text-white mb-[10px]"
+                      href="#top"
+                    >
+                      Drone Photography
+                    </a>
+                    <a className="text-sm leading-5 text-white" href="#top">
+                      Wildlife Photography
+                    </a>
+                  </div>
+                </div>
+                <div className="w-[221px] h-[200px">
+                  <p className="uppercase leading-5 text-sm tracking-[2px] text-[#C0C0C0] mb-[10px]">
+                    Pages
+                  </p>
+                  <div className="flex flex-col">
+                    <a
+                      className="text-[13px] leading-5 text-white mb-[10px]"
+                      href="#top"
+                    >
+                      Gear cage
+                    </a>
+                    <a
+                      className="text-[13px] leading-5 text-white mb-[10px]"
+                      href="#top"
+                    >
+                      Featured images
+                    </a>
+                    <a
+                      className="text-[13px] leading-5 text-white mb-[10px]"
+                      href="#top"
+                    >
+                      Contact
+                    </a>
+                    <a
+                      className="text-[13px] leading-5 text-white mb-[10px]"
+                      href="#top"
+                    >
+                      Style guide
+                    </a>
+                    <a
+                      className="text-[13px] leading-5 text-white mb-[10px]"
+                      href="#top"
+                    >
+                      Instructions
+                    </a>
+                    <a className="text-[13px] leading-5 text-white" href="#top">
+                      Changelog
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full h-[2px] bg-white mb-[36px]"></div>
+            <div className="mb-[36px] flex">
+              <div className="w-[695px] h-[60px] mr-4 flex flex-col justify-between">
+                <p className="text-sm leading-5 tracking-[2px] text-white uppercase">
+                  Subscribe to our newsletter
+                </p>
+                <p className="text-[#C0C0C0] leading-5 text-[13px]">
+                  Read about all the things we do.
+                </p>
+              </div>
+              <div className="w-[458px] h-[60px] bg-white rounded-lg flex justify-end items-center">
+                <div className="w-[63px] h-[30px] bg-black rounded-lg mr-1.5"></div>
+              </div>
+            </div>
+            <div className="w-full h-[2px] bg-white mb-[36px]"></div>
+            <div className="flex justify-between">
+              <div>
+                <p className="text-sm leading-5 text-[#C0C0C0]">
+                  © Aperture Photography, Inc. All rights reserved. Licensing.
+                </p>
+              </div>
+              <div className="flex">
+                <a className="mr-[20px]" href="https://twitter.com/">
+                  <img src={twitter} alt="twitter" />
+                </a>
+                <a className="mr-[20px]" href="https://www.instagram.com/">
+                  <img src={instagram} alt="instagram" />
+                </a>
+                <a href="https://www.facebook.com/">
+                  <img src={facebook} alt="facebook" />
+                </a>
+              </div>
             </div>
           </div>
         </section>
