@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SergeyNevmer/scaling-memory/static/css/main.42820e0a.css",
+    "main.js": "/SergeyNevmer/scaling-memory/static/js/main.8ed632de.js",
+    "static/media/firstSection.png": "/SergeyNevmer/scaling-memory/static/media/firstSection.69bc6ccdc14ab40425a7.png",
+    "static/media/bgFifthSection.png": "/SergeyNevmer/scaling-memory/static/media/bgFifthSection.f808f817320ca12bf638.png",
+    "static/media/bgCard03.png": "/SergeyNevmer/scaling-memory/static/media/bgCard03.6ba407cae4f06064cc24.png",
+    "static/media/bgSeventhSection.png": "/SergeyNevmer/scaling-memory/static/media/bgSeventhSection.d5f45c0bb118ddf3e264.png",
+    "static/media/bgFourthSection.png": "/SergeyNevmer/scaling-memory/static/media/bgFourthSection.6450c96173c97252b680.png",
+    "static/media/bgThirdSection.png": "/SergeyNevmer/scaling-memory/static/media/bgThirdSection.8104267bf0c628949b5f.png",
+    "static/media/bgCard04.png": "/SergeyNevmer/scaling-memory/static/media/bgCard04.4cc4c70b7fc58e0fecca.png",
+    "static/media/bgCard02.png": "/SergeyNevmer/scaling-memory/static/media/bgCard02.fae9fff5ddc8e2719279.png",
+    "static/media/bgCard01.png": "/SergeyNevmer/scaling-memory/static/media/bgCard01.36813b7cf028832a467a.png",
+    "index.html": "/SergeyNevmer/scaling-memory/index.html",
+    "main.42820e0a.css.map": "/SergeyNevmer/scaling-memory/static/css/main.42820e0a.css.map",
+    "main.8ed632de.js.map": "/SergeyNevmer/scaling-memory/static/js/main.8ed632de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42820e0a.css",
+    "static/js/main.8ed632de.js"
+  ]
+}
